@@ -1,0 +1,1974 @@
+[ 2016-04-06T13:13:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-06T13:13:34+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\wfx\Application\Admin\Controller\PublicController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:13:35+08:00 ] 127.0.0.1 /Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:13:44+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wfx_user` WHERE `username` = 'admin' AND `userpass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_employee` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wfx_employee` WHERE `username` = 'admin' AND `userpass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-04-06T13:13:44+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_user_oath` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wfx_user_oath`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.242014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.244014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-04-06T13:13:47+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `wfx_vip` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE ( subscribe=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `ctime` BETWEEN 1459872000 AND 1459958399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `ctime` BETWEEN 1459785600 AND 1459871999 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_order` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `ctime` BETWEEN 1459872000 AND 1459958399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `ctime` BETWEEN 1459785600 AND 1459871999 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_fx_syslog` [ RunTime:0.0090s ]
+SQL: SELECT SUM(fxyj) AS tp_sum FROM `wfx_fx_syslog` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(fxyj) AS tp_sum FROM `wfx_fx_syslog` WHERE `ctime` BETWEEN 1459872000 AND 1459958399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(fxyj) AS tp_sum FROM `wfx_fx_syslog` WHERE `ctime` BETWEEN 1459785600 AND 1459871999 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\wamp\www\wfx\Application\Admin\Controller\IndexController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `isfx` = 0 AND `isfxgd` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `isfx` = 1 AND `isfxgd` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE ( isfxgd=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_log_sub` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wfx_vip_log_sub` ORDER BY ctime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_fx_syslog` ORDER BY ctime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_fx_log_tj` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wfx_fx_log_tj` ORDER BY ctime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_shop_order` WHERE `ispay` = 1 AND `status` = 2 ORDER BY ctime desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `wfx_shop_order` WHERE `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `wfx_shop_order` WHERE `status` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(totalnum) AS tp_sum FROM `wfx_shop_order` WHERE `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_tx` [ RunTime:0.0090s ]
+SQL: SELECT SUM(txprice) AS tp_sum FROM `wfx_vip_tx` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.369021s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168010s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.245014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.410023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-04-06T13:13:52+08:00 ] 127.0.0.1 /Admin/Vip/vipTrack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_vip` WHERE `pid` = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 1 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 1 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 3 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 3 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 4 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 4 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 5 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 5 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 6 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 6 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 7 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 7 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 8 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 8 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 9 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 9 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 10 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 10 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 11 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 11 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 12 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 12 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 12  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: breadhtml D:\wamp\www\wfx\Application\Runtime\Cache\Admin\c779cab9ed91be6be36e427a5ed5c27e.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:13:58+08:00 ] 127.0.0.1 /Admin/Vip/txorder/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_tx` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php 第 1090 行.
+SQL: SELECT * FROM `wfx_vip_tx` WHERE `status` = 1 LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip_tx` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php on line 1102 and defined D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.077004s ]
+NOTIC: [8] Undefined index: txwx D:\wamp\www\wfx\Application\Runtime\Cache\Admin\40ba7abd876bfd1d84fa3e9dddd89d09.php 第 78 行.
+NOTIC: [8] Undefined index: txzfb D:\wamp\www\wfx\Application\Runtime\Cache\Admin\40ba7abd876bfd1d84fa3e9dddd89d09.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.089006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:14:06+08:00 ] 127.0.0.1 /Admin/Shop/order/status/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_set` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wfx_vip_set` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_order` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\wfx\Application\Admin\Controller\ShopController.class.php 第 1229 行.
+SQL: SELECT * FROM `wfx_shop_order` WHERE `ctime` >= 1459872000 ORDER BY ctime desc LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `ctime` >= 1459872000 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in D:\wamp\www\wfx\Application\Admin\Controller\ShopController.class.php on line 1242 and defined D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.121007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141008s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.169010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-04-06T13:14:09+08:00 ] 127.0.0.1 /Admin/Shop/orderReport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_vip_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_goods_sku` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wfx_shop_order` WHERE ( ctime>1459872000 )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: goods D:\wamp\www\wfx\Application\Admin\Model\ShopOrderModel.class.php 第 18 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\wfx\Application\Admin\Model\ShopOrderModel.class.php 第 18 行.
+SQL: SELECT * FROM `wfx_shop_goods`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_shop_goods_sku`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: breadhtml D:\wamp\www\wfx\Application\Runtime\Cache\Admin\2a04b1f8de22c7507c715bc1de2ded10.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-06T13:14:11+08:00 ] 127.0.0.1 /Admin/Shop/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_vip_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_order` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\wfx\Application\Admin\Controller\ShopController.class.php 第 1229 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\ShopController.class.php 第 1240 行.
+SQL: SELECT * FROM `wfx_shop_order` ORDER BY ctime desc LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\ShopController.class.php 第 1241 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in D:\wamp\www\wfx\Application\Admin\Controller\ShopController.class.php on line 1242 and defined D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.124007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167010s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.198012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-04-06T13:15:59+08:00 ] 127.0.0.1 /Admin/Vip/vipTrack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_vip` WHERE `pid` = 0  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 1 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 1 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 3 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 3 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 4 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 4 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 5 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 5 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 6 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 6 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 7 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 7 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 8 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 8 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 9 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 9 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 10 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 10 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 11 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 11 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 12 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 12 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 12  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: breadhtml D:\wamp\www\wfx\Application\Runtime\Cache\Admin\c779cab9ed91be6be36e427a5ed5c27e.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:16:03+08:00 ] 127.0.0.1 /Admin/Vip/vipList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_employee` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_employee`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php 第 327 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php 第 339 行.
+SQL: SELECT * FROM `wfx_vip` LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_level` [ RunTime:0.0080s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wfx_vip_level` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php 第 358 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php on line 359 and defined D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.146008s ]
+NOTIC: [8] Undefined variable: plv D:\wamp\www\wfx\Application\Runtime\Cache\Admin\749beb32de2ab4786077c3e0cb80130c.php 第 33 行.
+NOTIC: [8] Undefined variable: search D:\wamp\www\wfx\Application\Runtime\Cache\Admin\749beb32de2ab4786077c3e0cb80130c.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138008s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.097006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.232014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:16:06+08:00 ] 127.0.0.1 /Admin/Vip/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_message` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php 第 655 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php 第 662 行.
+SQL: SELECT * FROM `wfx_vip_message` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php 第 663 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip_message` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php on line 664 and defined D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.064004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.069004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:17:05+08:00 ] 127.0.0.1 /Admin/Vip/vipTrack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_vip` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_vip` WHERE `pid` = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 1 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 1 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 3 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 3 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 4 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 4 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 5 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 5 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 6 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 6 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 7 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 7 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 8 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 8 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 9 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 9 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 10 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 10 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 11 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 11 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 12 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 12 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 12  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: breadhtml D:\wamp\www\wfx\Application\Runtime\Cache\Admin\c779cab9ed91be6be36e427a5ed5c27e.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-04-06T13:17:08+08:00 ] 127.0.0.1 /Admin/Vip/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_message` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php 第 655 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php 第 662 行.
+SQL: SELECT * FROM `wfx_vip_message` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php 第 663 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip_message` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in D:\wamp\www\wfx\Application\Admin\Controller\VipController.class.php on line 664 and defined D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.061003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.067004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-04-06T13:17:11+08:00 ] 127.0.0.1 /Admin/Vip/vipTrack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_vip` WHERE `pid` = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 1 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 1 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 3 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 3 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 4 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 4 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 5 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 5 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 6 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 6 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 7 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 7 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 8 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 8 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 9 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 9 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 10 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 10 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 11 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 11 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` = 12 AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` = 12 AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `wfx_vip` WHERE `pid` = 12  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(payprice) AS tp_sum FROM `wfx_shop_order` WHERE `vipid` IN ('-10000000000') AND `ispay` = 1 AND `payprice` > 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: count1 D:\wamp\www\wfx\Application\Admin\Model\VipModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: breadhtml D:\wamp\www\wfx\Application\Runtime\Cache\Admin\c779cab9ed91be6be36e427a5ed5c27e.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:17:20+08:00 ] 127.0.0.1 /Admin/Shop/skuattr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_vip_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_skuattr` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\wfx\Application\Admin\Controller\ShopController.class.php 第 654 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\ShopController.class.php 第 661 行.
+SQL: SELECT * FROM `wfx_shop_skuattr` LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\ShopController.class.php 第 662 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_skuattr` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in D:\wamp\www\wfx\Application\Admin\Controller\ShopController.class.php on line 663 and defined D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: map D:\wamp\www\wfx\Application\Admin\Controller\BaseController.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.069004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.086005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-04-06T13:17:31+08:00 ] 127.0.0.1 /Admin/Wx/customer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_wx_customer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wfx_wx_customer`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.059003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.060003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-04-06T13:17:33+08:00 ] 127.0.0.1 /Admin/Wx/template
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_wx_template` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wfx_wx_template`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.055003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:17:37+08:00 ] 127.0.0.1 /Admin/Wx/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.744100s ]
+NOTIC: [8] Undefined index: key D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5ea810711906b062bff57e80070424d2.php 第 289 行.
+NOTIC: [8] Undefined index: key D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5ea810711906b062bff57e80070424d2.php 第 289 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.687096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.752100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-04-06T13:20:38+08:00 ] 127.0.0.1 /Admin/Wx/qrcodeBgSet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `wfx_autoset` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wfx_autoset` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.046002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.040002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:20:39+08:00 ] 127.0.0.1 /Admin/Wx/customer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_wx_customer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_wx_customer`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.054003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-04-06T13:20:40+08:00 ] 127.0.0.1 /Admin/Wx/template
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_wx_template` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_wx_template`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.053003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-04-06T13:20:42+08:00 ] 127.0.0.1 /Admin/Wx/qrcodeBgSet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_autoset` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_autoset` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.041002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.037002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:20:44+08:00 ] 127.0.0.1 /Admin/Wx/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.421081s ]
+NOTIC: [8] Undefined index: key D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5ea810711906b062bff57e80070424d2.php 第 289 行.
+NOTIC: [8] Undefined index: key D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5ea810711906b062bff57e80070424d2.php 第 289 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.366078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.428081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-04-06T13:20:44+08:00 ] 127.0.0.1 /Admin/Wx/qrcodeBgSet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `wfx_autoset` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_autoset` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.046002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.041002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:20:44+08:00 ] 127.0.0.1 /Admin/Wx/customer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_wx_customer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_wx_customer`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.061003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.061003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-04-06T13:24:39+08:00 ] 127.0.0.1 /Admin/Addons/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.051003s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 45 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 45 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 45 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 45 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 41 行.
+NOTIC: [8] Undefined variable: vo D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 45 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\wfx\Application\Runtime\Cache\Admin\5001e2ecd850c883ff7a762072dd18dc.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.063003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:24:49+08:00 ] 127.0.0.1 /Admin/admin/index/addon/Apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Common\Controller\Addon::display() should be compatible with Think\Controller::display($templateFile = '', $charset = '', $contentType = '', $content = '', $prefix = '') D:\wamp\www\wfx\Application\Common\Controller\Addon.class.php 第 121 行.
+NOTIC: [2048] Declaration of Common\Controller\Addon::fetch() should be compatible with Think\Controller::fetch($templateFile = '', $content = '', $prefix = '') D:\wamp\www\wfx\Application\Common\Controller\Addon.class.php 第 121 行.
+SQL: SHOW COLUMNS FROM `wfx_apply_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wfx_apply_config` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_apply_record` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_apply_record` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_apply_record` ORDER BY id desc LIMIT 0,12   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip_address` WHERE ( 1=1 AND id='66' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\wfx\Application\Runtime\Cache\Admin\d48a527a0ce0a28de13476c7f90540c3.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T13:24:53+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-04-06T13:24:55+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_vip` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE ( subscribe=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `ctime` BETWEEN 1459872000 AND 1459958399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `ctime` BETWEEN 1459785600 AND 1459871999 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `ctime` BETWEEN 1459872000 AND 1459958399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `ctime` BETWEEN 1459785600 AND 1459871999 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_fx_syslog` [ RunTime:0.0050s ]
+SQL: SELECT SUM(fxyj) AS tp_sum FROM `wfx_fx_syslog` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(fxyj) AS tp_sum FROM `wfx_fx_syslog` WHERE `ctime` BETWEEN 1459872000 AND 1459958399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(fxyj) AS tp_sum FROM `wfx_fx_syslog` WHERE `ctime` BETWEEN 1459785600 AND 1459871999 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\wamp\www\wfx\Application\Admin\Controller\IndexController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `isfx` = 0 AND `isfxgd` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `isfx` = 1 AND `isfxgd` = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE ( isfxgd=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_log_sub` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_vip_log_sub` ORDER BY ctime desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_fx_syslog` ORDER BY ctime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_fx_log_tj` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_fx_log_tj` ORDER BY ctime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_shop_order` WHERE `ispay` = 1 AND `status` = 2 ORDER BY ctime desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `wfx_shop_order` WHERE `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `wfx_shop_order` WHERE `status` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(totalnum) AS tp_sum FROM `wfx_shop_order` WHERE `ispay` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_tx` [ RunTime:0.0050s ]
+SQL: SELECT SUM(txprice) AS tp_sum FROM `wfx_vip_tx` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.357021s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170010s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.229013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.397023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T18:44:44+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-04-06T18:44:44+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: uid D:\wamp\www\wfx\Application\Admin\Controller\PublicController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-04-06T18:44:45+08:00 ] 127.0.0.1 /Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-04-06T18:44:53+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wfx_user` WHERE `username` = 'admin' AND `userpass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wfx_employee` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wfx_employee` WHERE `username` = 'admin' AND `userpass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-04-06T18:44:53+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_user_oath` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wfx_user_oath`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.270015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017001s ]
+
+[ 2016-04-06T18:44:55+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wfx_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wfx_set` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wfx_cms_set` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wfx_cms_set` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_set` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wfx_shop_set` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wfx_vip` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE ( subscribe=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `ctime` BETWEEN 1459872000 AND 1459958399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `ctime` BETWEEN 1459785600 AND 1459871999 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_shop_order` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE ( status=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `ctime` BETWEEN 1459872000 AND 1459958399 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_shop_order` WHERE `ctime` BETWEEN 1459785600 AND 1459871999 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wfx_fx_syslog` [ RunTime:0.0060s ]
+SQL: SELECT SUM(fxyj) AS tp_sum FROM `wfx_fx_syslog` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(fxyj) AS tp_sum FROM `wfx_fx_syslog` WHERE `ctime` BETWEEN 1459872000 AND 1459958399 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(fxyj) AS tp_sum FROM `wfx_fx_syslog` WHERE `ctime` BETWEEN 1459785600 AND 1459871999 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\wfx\Application\Admin\Controller\IndexController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `isfx` = 0 AND `isfxgd` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE `isfx` = 1 AND `isfxgd` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wfx_vip` WHERE ( isfxgd=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_log_sub` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wfx_vip_log_sub` ORDER BY ctime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wfx_fx_syslog` ORDER BY ctime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wfx_fx_log_tj` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wfx_fx_log_tj` ORDER BY ctime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wfx_shop_order` WHERE `ispay` = 1 AND `status` = 2 ORDER BY ctime desc LIMIT 5   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wfx_vip` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `wfx_shop_order` WHERE `ispay` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(totalprice) AS tp_sum FROM `wfx_shop_order` WHERE `status` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(totalnum) AS tp_sum FROM `wfx_shop_order` WHERE `ispay` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wfx_vip_tx` [ RunTime:0.0196s ]
+SQL: SELECT SUM(txprice) AS tp_sum FROM `wfx_vip_tx` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.299211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127007s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.203206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.328213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-06T18:45:09+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+

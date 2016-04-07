@@ -1,0 +1,173 @@
+#cateimg{ margin:10px auto} 
+#cateimg img{ border-radius:50%} 
+
+.like{
+	overflow:hidden;
+	margin-top:10px;
+}
+.like ul li{
+	width:45%; overflow:hidden; background-color:#FFF; float:left; float:left; display:inline; margin:0 2% 4% 2%; border:1px solid #eaeaea;
+}
+.like ul li .img{
+	width:63.5%; overflow:hidden; margin-top:1%;
+}
+.like ul li .img img{
+	width:100%;
+}
+.like ul li .name{
+	height:40px; line-height:20px; overflow:hidden; color:#888888; font-size:12px; text-align:center; margin-top:1%;
+}
+.like ul li .name h2{
+	height:20px; line-height:20px; overflow:hidden; color:#555555; font-size:16px; text-align:center;
+}
+.like ul li .name h2 a{
+	color:#555555;
+}
+.like ul li .name h2 a:hover{
+	color:#555555; text-decoration:underline;
+}
+.like ul li .name a{
+	color:#888888;
+}
+.like ul li .name a:hover{
+	color:#888888; text-decoration:underline;
+}
+
+.form-control {
+  display: inline;
+  width: 71%;
+  padding: 4px 12px;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 8px;
+  height:23px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #AFA8A8;
+  border-radius: 20px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.btn {
+  display: inline;
+  width: 15%;
+  height: 34px;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #555;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #fff;
+  background-image: none;
+  border-radius:16px;
+  border: 1px solid #AFA8A8;
+  float:right;
+  -moz-transition: color .25s linear, background-color .25s linear;
+  -webkit-transition: color .25s linear, background-color .25s linear;
+	transition: color .25s linear, background-color .25s linear;
+}
+
+.lst-tg {
+    margin-bottom: 8px;
+    text-align:center;
+    margin-top: 10px;
+}
+
+.lst-mr {
+    font-weight: 600;
+}
+.color-tg {
+    color: #343434;
+}
+
+.index-glist {
+    background: #FFFFFF;
+}
+
+.glist-ul {
+    padding: 10px 0 0 10px;
+}
+
+.glist-ul li {
+    width: 100%;
+    float: left;
+    margin-bottom: 1px;
+    display:inline;
+}
+
+.glidiv a {
+    display:inline;
+    margin-right: 10px;
+    color: #3c3c3c;
+    padding-bottom: 1px;
+}
+
+.glist-tt {
+    padding: 4px;
+    margin-top: 35px;
+    line-height: 16px;
+}
+
+.glist-xp {
+    text-decoration: line-through;
+    color: #b6b5b5;
+}
+
+.glist-ul li a p {
+    padding-left: 4px;
+}
+
+.showImg-divg {
+	    display:inline;
+        height: 160px;
+        
+    }
+    
+.showImgg {
+        width: 40%;
+        padding: 2px;
+        overflow: hidden;
+    }
+
+.glidiv{
+  width: 100%;
+  height: 160px;
+}
+
+.gdiv{
+	display:inline;
+	width: 55%;
+	height: 160px;
+	float: right;
+	/*margin-top: -13px;
+*/
+} 
+.zan-btn{
+	width: 17px;
+	height: 16px;
+	border: none;
+	background:url('/Public/App/img/zan.png');
+  background-repeat:no-repeat;
+}
+
+.lst-tg {
+    margin-bottom: 1px;
+}
+
+.zandiv{
+  float: right;
+  margin-right: 15px;
+}
+.goodsinfo{
+  margin-top: 5px;
+}

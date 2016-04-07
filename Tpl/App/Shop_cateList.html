@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <title>分类列表</title>
+    <meta charset="utf-8" />
+		<!--页面优化-->
+		<meta name="MobileOptimized" content="320">
+		<!--默认宽度320-->
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<!--viewport 等比 不缩放-->
+		<meta http-equiv="cleartype" content="on">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!--删除苹果菜单-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<!--默认颜色-->
+		<meta name="apple-mobile-web-app-title" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<!--加载全部后 显示-->
+		<meta content="telephone=no" name="format-detection" />
+		<!--不识别电话-->
+		<meta content="email=no" name="format-detection" />
+		<link rel="stylesheet" href="__PUBLIC__/App/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/App/css/mystyle.css">
+	    <!--组件依赖js begin-->
+	    <script src="__PUBLIC__/App/js/zepto.min.js"></script>
+	    <!--组件依赖js end-->		
+		<script type="text/javascript" src="__PUBLIC__/App/gmu/gmu.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/App/gmu/app-basegmu.js"></script>
+<style> 
+
+</style> 
+</head>
+<body class="back1">
+       <div class="lv-search search">
+        <div class="lv-div-search">
+        <form id="key_search" method="post" action="{:U('App/Shop/search/')}">
+        	<input id="name" name="name" type="text" class="form-control" />
+            <input type="submit" value="搜索" class="btn" />
+        </form>
+        </div>
+       </div>
+
+              <div class="like">
+                <ul>
+                  <volist name="cate" id="vo">
+                	<li>   		 
+                		<div <eq name="vo.ison" value="1">class="ui-imgs indexiconson"
+                            <else/>class="ui-imgs indexiconsoff"</eq> style="border-radius:50%;margin-top:8px;background-image: url('{$vo.iconurl}');" id="ui-imgs">
+                        </div>
+
+                		<div class="name">
+                			<a href="{$vo.url}">
+                				<h2>{$vo.name}</h2>
+                			</a>
+                		</div>
+                	</li>
+                	</volist>
+                </ul>
+
+              </div>
+		<!-- 底部导航 -->
+		<include file="./Tpl/App/Shop_footer.html" />
+		<!--通用分享-->
+		<include file="./Tpl/App/Shop_share.html" />
+	</body>
+</html>
